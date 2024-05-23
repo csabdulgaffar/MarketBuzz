@@ -11,7 +11,7 @@ function Layout() {
 
         <div>
             <div className="header  bg-black text-white  ">
-                <div className="nav  mobile:flex mobile:flex-col justify-between items-center px-5  max-w-screen-xl mx-auto   ">
+                <div className="nav  mobile:flex mobile:flex-col flex justify-between items-center px-5  max-w-screen-xl mx-auto   ">
                     <div className="logo">
                         <Link className=" px-5 hover:scale-110 " to="/">
                             <img className="w-20" src={logo} alt="" />
@@ -26,7 +26,7 @@ function Layout() {
                         <NavLink activeClassName="active" className="mobile:p-2 px-5 hover:font-bold" to="/market-sentiment">Market Sentiment</NavLink>
 
                     </div>
-                    <div className="search mobile:w-96 mobile:mb-5 mobile:mt-2 ">
+                    <div className="search mobile:w-3/4 mobile:mb-5 mobile:mt-2 ">
                         <SearchForm />
                     </div>
                 </div>
