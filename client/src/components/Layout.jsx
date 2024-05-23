@@ -35,7 +35,7 @@ function Layout() {
             <div className="px-3 min-h-screen">
                 <Outlet />
             </div>
-            <div className="footer py-20 bg-black">
+            <div className="footer py-20 bg-black mt-5">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="text-white text-center">Copyright © 2024 MarketBuzz by csabdulgaffar@gmail.com </div>
 

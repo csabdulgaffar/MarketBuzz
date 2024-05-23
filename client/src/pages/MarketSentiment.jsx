@@ -14,7 +14,7 @@ function MarketSentiment() {
                 <div className="font-bold text-center text-7xl text-green-500 py-5">
                     Bullish
                 </div>
-                <div className="w-full h-20 bg-white rounded-full dark:bg-gray-700 mt-10 ">
+                <div className="w-full h-20 rounded-full bg-gray-700 mt-10 ">
                     <div className="h-20 bg-green-500 rounded-full " style={{ width: '100%' }} />
 
                 </div>

@@ -16,7 +16,7 @@ function FearGreedIndex() {
                 <div className="font-bold text-center text-7xl text-red-500 py-5">
                     Extreme Fear
                 </div>
-                <div className="w-full h-20 bg-white   rounded-full dark:bg-gray-700 mt-10 ">
+                <div className="w-full h-20 rounded-full bg-gray-700 mt-10 ">
                     <div className="h-20 bg-red-500    rounded-full " style={{ width: '15%' }} />
                 </div>
                 <div className="flex justify-between px-5 font-bold ">
