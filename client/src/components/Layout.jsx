@@ -10,7 +10,7 @@ function Layout() {
     return (
 
         <div>
-            <div className="header py-6 bg-black text-white ">
+            <div className="header  bg-black text-white  ">
                 <div className="nav flex justify-between items-center px-5  max-w-screen-xl mx-auto   ">
                     <div className="logo">
                         <Link className=" px-5 hover:scale-110 " to="/">
@@ -20,10 +20,10 @@ function Layout() {
                     </div>
 
                     <div className="menu">
-                        <NavLink activeClassName="active" className="py-3 px-5  hover:font-bold" to="/">Home</NavLink>
-                        <NavLink activeClassName="active" className="py-3 px-5 hover:font-bo    ld" to="/real-time-news-analysis">Real Time News Analysis</NavLink>
-                        <NavLink activeClassName="active" className="py-3 px-5 hover:font-bold" to="/fear-greed-index">Fear Greed Index</NavLink>
-                        <NavLink activeClassName="active" className="py-3 px-5 hover:font-bold" to="/market-sentiment">Market Sentiment</NavLink>
+                        <NavLink activeClassName="active" className=" px-5  hover:font-bold" to="/">Home</NavLink>
+                        <NavLink activeClassName="active" className=" px-5 hover:font-bold" to="/real-time-news-analysis">Real Time News Analysis</NavLink>
+                        <NavLink activeClassName="active" className=" px-5 hover:font-bold" to="/fear-greed-index">Fear Greed Index</NavLink>
+                        <NavLink activeClassName="active" className=" px-5 hover:font-bold" to="/market-sentiment">Market Sentiment</NavLink>
 
                     </div>
                     <div className="search ">

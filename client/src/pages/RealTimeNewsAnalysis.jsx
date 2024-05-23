@@ -3,9 +3,10 @@ function RealTimeNewsAnalysis() {
     return (
 
         <div className="max-w-screen-lg mx-auto px-2">
-            <div className='text-3xl  text-center font-bold px-2 py-3'>
-                Live AI Powered News Analysis             </div>
-            <div className="mt-5">
+            <div className='text-3xl  text-center font-bold px-2 py-5'>
+                Live AI Powered News Analysis
+            </div>
+            <div className="">
                 <div className="cards">
                     <div className="card grid grid-cols-5 py-4 bg-black text-white rounded-xl ">
                         <div className="news text-center text-xl col-span-3 font-bold">News Headline</div>
