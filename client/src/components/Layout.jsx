@@ -20,10 +20,10 @@ function Layout() {
                     </div>
 
                     <div className="menu">
-                        <NavLink activeClassName="active" className="py-3 px-5 transition-all duration-300 hover:scale-105" to="/">Home</NavLink>
-                        <NavLink activeClassName="active" className="py-3 px-5 hover:scale-110" to="/fear-greed-index">Fear Greed Index</NavLink>
-                        <NavLink activeClassName="active" className="py-3 px-5 hover:scale-110" to="/market-sentiment">Market Sentiment</NavLink>
-                        <NavLink activeClassName="active" className="py-3 px-5 hover:scale-110" to="/real-time-news-analysis">Real Time News Analysis</NavLink>
+                        <NavLink activeClassName="active" className="py-3 px-5  hover:font-bold" to="/">Home</NavLink>
+                        <NavLink activeClassName="active" className="py-3 px-5 hover:font-bo    ld" to="/real-time-news-analysis">Real Time News Analysis</NavLink>
+                        <NavLink activeClassName="active" className="py-3 px-5 hover:font-bold" to="/fear-greed-index">Fear Greed Index</NavLink>
+                        <NavLink activeClassName="active" className="py-3 px-5 hover:font-bold" to="/market-sentiment">Market Sentiment</NavLink>
 
                     </div>
                     <div className="search ">

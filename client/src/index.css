@@ -4,5 +4,5 @@
 
 
 .active {
-  @apply underline decoration-2;
+  @apply font-extrabold;
 }
