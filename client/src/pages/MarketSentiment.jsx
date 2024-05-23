@@ -4,7 +4,7 @@ function MarketSentiment() {
         <div className="max-w-screen-lg mx-auto">
             <div>
 
-                <div className='text-3xl font-bold px-2 py-2'>
+                <div className='text-3xl mobile:text-center font-bold px-2 py-2'>
                     Market Sentiment                </div>
                 <p className="px-2">
                     Market sentiment refers to the overall attitude and mood of investors in the financial markets. It's essentially a measure of the prevailing psychology and expectations of market participants.                </p>

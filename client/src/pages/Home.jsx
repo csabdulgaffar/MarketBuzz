@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className="max-w-screen-xl mx-auto">
             <div className='section1'>
-                <div className="grid grid-cols-2 gap-5 mt-5 ">
+                <div className="grid grid-cols-2 gap-5 mt-5 mobile:grid-cols-1 ">
 
                     <div>
                         <div className='text-3xl font-bold px-2 py-2'>
@@ -63,10 +63,10 @@ function Home() {
                 </div>
             </div>
             <div className='section5 my-5'>
-                <div className='text-2xl font-bold text-center mt-5'>
+                <div className='text-2xl  font-bold text-center mt-5'>
                     AI Powered Features
                 </div>
-                <div className='grid grid-cols-3 gap-5 mt-5 '>
+                <div className='grid grid-cols-3 gap-5 mt-5  mobile:grid-cols-1 '>
                     <Link to="/fear-greed-index" className='text-center py-5 bg-black text-white font-bold text-xl rounded-xl hover:scale-105 transition-all duration-300' >Fear Greed Index</Link>
                     <Link to="/market-sentiment" className='hover:scale-105 transition-all duration-300 text-center py-5 bg-black text-white font-bold text-xl rounded-xl'>Market Sentiment</Link>
                     <Link to="/real-time-news-analysis" className='hover:scale-105 transition-all duration-300 text-center py-5 bg-black text-white font-bold text-xl rounded-xl'>Real Time News Analysis</Link>
@@ -76,7 +76,7 @@ function Home() {
             <div className='section2'>
                 <div className='text-3xl font-bold px-2 py-2 mt-5'>
                     Sector Wise Analysis
-                </div><div className='cards grid grid-cols-5 px-2 gap-2'>
+                </div><div className='cards grid grid-cols-5 px-2 gap-2 mobile:grid-cols-2'>
                     <div className='card bg-green-500 py-9 font-bold text-center rounded-md text-black'>
                         <div className='    '>
                             Metal <br />
@@ -206,25 +206,25 @@ function Home() {
 
             </div>
             <div className='section4 mt-5'>
-                <div className='grid grid-cols-2 font-bold'>
+                <div className='grid grid-cols-2 font-bold mobile:grid-cols-2 '>
                     <div>
                         <div>
-                            <div className='text-3xl font-bold px-2 py-2 mt-5'>
+                            <div className='text-3xl mobile:text-xl font-bold px-2 py-2 mt-5'>
                                 Top Gainers
                             </div>
-                            <div className='grid grid-cols-2 px-2   '>
+                            <div className='grid grid-cols-2 px-2 mobile:px-0 mobile:text-sm '>
                                 <div>
                                     Rail Vikas Nigam Limited
                                 </div>
                                 <div className='text-green-500'>+8.5%</div>
                             </div>
-                            <div className='grid grid-cols-2 px-2   '>
+                            <div className='grid grid-cols-2 px-2 mobile:px-0 mobile:text-sm   '>
                                 <div>
                                     HAL
                                 </div>
                                 <div className='text-green-500'>+6.5%</div>
                             </div>
-                            <div className='grid grid-cols-2 px-2   '>
+                            <div className='grid grid-cols-2 px-2 mobile:px-0 mobile:text-sm  '>
                                 <div>
                                     Hindustan Zinc
                                 </div>
@@ -235,24 +235,24 @@ function Home() {
 
                     </div>
                     <div>
-                        <div className='text-3xl font-bold  py-2 mt-5'>
+                        <div className='text-3xl mobile:text-xl font-bold  py-2 mt-5'>
                             Top Losers
                         </div>
-                        <div className='grid grid-cols-2 px-2'>
+                        <div className='grid grid-cols-2 mobile:px-0 px-2 mobile:text-sm'>
                             <div>
                                 Waree renewable Energy
                             </div>
                             <div className='text-red-500'>-9.5%</div>
                         </div>
 
-                        <div className='grid grid-cols-2 px-2'>
+                        <div className='grid grid-cols-2 mobile:px-0 px-2 mobile:text-sm'>
                             <div>
                                 Suzlon Energy
                             </div>
                             <div className='text-red-500'>-7.5%</div>
                         </div>
 
-                        <div className='grid grid-cols-2 px-2'>
+                        <div className='grid grid-cols-2 mobile:px-0 px-2 mobile:text-sm'>
                             <div>
                                 Ganesh Housing
                             </div>
@@ -267,7 +267,7 @@ function Home() {
                 <div className='text-3xl font-bold text-center px-2 py-2 mt-5'>
                     AI Powered Features
                 </div>
-                <div className='grid grid-cols-3 gap-5 mt-5 '>
+                <div className='grid grid-cols-3 gap-5 mt-5 mobile:grid-cols-1 '>
                     <Link to="/fear-greed-index" className='text-center py-20 bg-black text-white font-bold text-xl rounded-xl hover:scale-105 transition-all duration-300' >Fear Greed Index</Link>
                     <Link to="/market-sentiment" className='hover:scale-105 transition-all duration-300 text-center py-20 bg-black text-white font-bold text-xl rounded-xl'>Market Sentiment</Link>
                     <Link to="/real-time-news-analysis" className='hover:scale-105 transition-all duration-300 text-center py-20 bg-black text-white font-bold text-xl rounded-xl'>Real Time News Analysis</Link>

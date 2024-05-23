@@ -4,7 +4,7 @@ function FearGreedIndex() {
         <div className="max-w-screen-lg mx-auto">
             <div>
 
-                <div className='text-3xl font-bold px-2 py-2'>
+                <div className='text-3xl mobile:text-center font-bold px-2 py-2'>
                     Fear Greed Index
                 </div>
                 <p className="px-2">
